@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="550.0" style="-fx-background-color: #e4dfd7;" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="com.bds.pro.controller.FristDebtController">
+    <stylesheets>
+        <URL value="@/com/bds/pro/css/fristdebt.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="103.0" layoutY="21.0" text="CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="48.0" text="Độc Lập - Tự Do - Hạnh Phúc">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="212.0" layoutY="80.0" text="Thông Báo" textFill="#2262c6">
+         <font>
+            <Font name="Cambria Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="128.0" text="Kính gửi: Ông/Bà">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="148.0" text="Thực hiện hợp đồng">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="221.0" layoutY="148.0" text="ký ngày:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="182.0" text="giữa Ông/Bà và Công Ty chúng tôi đã thực hiện bàn giao đầy đủ hàng ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="208.0" text="hóa và giấy tờ theo quy định tại điều 3 của hợp đồng.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="234.0" text="Đại diện hai bên đã nghiệm thu và ký kết biên bảng bàn giao vào">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="260.0" text="ngày:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="260.0" text="tháng:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="154.0" layoutY="260.0" text="năm:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="286.0" text="Theo điều khoản về điều thanh toán hợp đồng (điều 2) bên mua sẽ thực">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="312.0" text="hiện thanh toán cho bên Bán 25% giá trị hợp đồng theo từng đợt">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="349.0" text="Tên Tài Khoản: Công Ty Cổ Phần Bất Động Sản">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="389.0" text="Số tài khoản: 6868 987294 tại Ngân hàng: Tiên Phong TP BANK ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="415.0" text="Chi nhánh: Thủ Đức">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="464.0" text="Rất mong nhận được sự hợp tác từ quý công ty!">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbName" layoutX="140.0" layoutY="128.0" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbMaHD" layoutX="165.0" layoutY="148.0" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbDate" layoutX="287.0" layoutY="148.0" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbDay" layoutX="58.0" layoutY="260.0" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbMonth" layoutX="131.0" layoutY="260.0" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbYear" layoutX="193.0" layoutY="260.0" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="9.0" layoutY="540.0" mnemonicParsing="false" onAction="#btnPrint" prefHeight="26.0" prefWidth="530.0" style="-fx-text-fill: #038f1c;" text="Print Reminder">
+         <font>
+            <Font size="13.5" />
+         </font>
+      </Button>
+      <Button layoutX="9.0" layoutY="577.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="26.0" prefWidth="530.0" text="Back">
+         <font>
+            <Font size="13.5" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

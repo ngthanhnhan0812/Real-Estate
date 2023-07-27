@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9e519c0e-c34c-43d6-90ed-486d94ce8625">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="NgayCap" class="java.lang.String"/>
+	<parameter name="CMND" class="java.lang.String"/>
+	<parameter name="NgaySinh" class="java.lang.String"/>
+	<parameter name="Ten" class="java.lang.String"/>
+	<parameter name="ThoiHan" class="java.lang.String"/>
+	<parameter name="HoKhau" class="java.lang.String"/>
+	<parameter name="GiaDC" class="java.lang.String"/>
+	<parameter name="GiaDCBangChu" class="java.lang.String"/>
+	<parameter name="DienTich" class="java.lang.String"/>
+	<parameter name="ViTri" class="java.lang.String"/>
+	<parameter name="GiaSP" class="java.lang.String"/>
+	<parameter name="BatDau" class="java.lang.String"/>
+	<parameter name="NoiCap" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="796" splitType="Stretch">
+			<staticText>
+				<reportElement x="163" y="20" width="230" height="20" uuid="3e103dff-b4d8-4480-bbd9-1560500640e4"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Độc lập - Tự do - Hạnh phúc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="391" width="200" height="20" uuid="d45daa7b-51c0-44b9-aade-8738ec1ab264">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Đại diện: Nguyễn Huy Thuận]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="210" width="82" height="20" uuid="e4375542-6cb7-4186-a786-0e7f0a30cac2"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Sinh ngày:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="221" y="50" width="112" height="20" uuid="660aba53-66e2-4f8a-9f6c-78049d07f789"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[--------***--------]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="490" width="358" height="20" uuid="9045cbb6-3267-4be3-be59-fe8a7cf8d0d2"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Bên A đặt cọc cho bên B bằng tiền mặt với số tiền là:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="308" y="230" width="70" height="20" uuid="0a73c0f8-b980-44a2-ac08-4658cf0fdbe9"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[cấp ngày:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="330" width="380" height="22" uuid="2c6f475a-5e8d-4e8f-a375-49da1676aa4b"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Địa chỉ: 36/5, đường D5, phường 25, quận Bình Thạnh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="411" width="250" height="20" uuid="4ffca1ef-03cb-46ab-ae19-c19e7ee428ce"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Chức vụ: Trưởng phòng kinh doanh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="310" width="230" height="20" uuid="a8a1fc83-e2ec-48eb-858a-b7f9dd7f321e">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[CÔNG TY BẤT ĐỘNG SẢN DDT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="352" width="240" height="20" uuid="32de18c1-23b0-4163-952d-02ed40b0b562">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[VPGD: Công ty bất động sản DDT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="372" width="168" height="20" uuid="526a5d33-bd74-422c-8476-ca8490b52de3">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Điện thoại: 0925299961]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="80" width="198" height="30" uuid="cf73016b-ef1a-4173-bf72-54c5cb1ad6b9"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HỢP ĐỒNG ĐẶT CỌC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="230" width="180" height="20" uuid="381358e4-d950-462e-a1dc-2c5a8bf17029">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Chứng minh nhân dân số: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="470" width="200" height="20" uuid="e59c79d4-297f-44ef-b594-39c194df34a6"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 1: TÀI SẢN ĐẶT CỌC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="83" y="0" width="404" height="20" uuid="a2a314b0-df7f-4666-95da-e4db47b1721b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="560" width="80" height="20" uuid="300f3f01-23c3-4d2d-ab1d-5693efdf3ae8"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[kể từ ngày:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="372" width="182" height="20" uuid="ce5d22dc-e8ce-4833-8f94-7c8754bf6148"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Email: bdsddt@gmail.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="540" width="220" height="20" uuid="07d28e3f-675f-442e-9d3e-1f38f770b490"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 2: THỜI HẠN ĐẶT CỌC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="250" width="30" height="20" uuid="6fedb344-f1c2-4e10-a57d-274d4728dfa3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[ tại:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="190" width="70" height="20" uuid="b5e8cf07-78e9-4d12-963f-c0c459e2d9c9"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Ông (Bà):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="130" width="550" height="26" uuid="47e348ed-8367-4dee-bdd9-96684ebce578"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Hôm nay, ngày	    tháng	      năm 	       ,chúng tôi gồm có:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="560" width="140" height="20" uuid="8b0a30b8-5854-4de4-bd0b-3a2f268c3555"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Thời hạn đặt cọc là:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="160" width="280" height="20" uuid="a096b228-6fb8-44e9-ad70-c6aae45233e1"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[I. Bên đặt cọc (sau đây gọi là Bên A):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="166" y="372" width="148" height="20" uuid="ea77ab38-048a-4773-b60a-969a38e6d849"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Fax: +84 925299961]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="440" width="550" height="30" uuid="779492e5-4489-41ef-a7f9-8fb9fbb91659"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[III. Hai bên đồng ý thực hiện ký kết Hợp đồng đặt cọc với các thỏa thuận sau đây:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="270" width="140" height="20" uuid="25834106-d4b3-4657-b63a-a396beeb8aed"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Hộ khẩu thường trú:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="510" width="80" height="20" uuid="eaf6960f-8d4a-452b-927f-e9bdfd923114"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Bằng chữ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="195" y="110" width="164" height="20" uuid="ec461b2f-4ded-4fd9-a134-c42250b6dd1c"/>
+				<textElement textAlignment="Center">
+					<font size="14" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(V/v Mua bán nhà, đất)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="290" width="320" height="20" uuid="a59fa6f2-fa3a-48bd-b6d6-d2d1863bf2f6"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[II. Bên nhận đặt cọc (sau đây gọi là Bên B):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="590" width="216" height="20" uuid="1f562df7-78ab-488f-a879-e4b2bb0e229c"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 3: MỤC ĐÍCH ĐẶT CỌC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="610" width="416" height="20" uuid="4b5f4771-8e9e-43aa-887e-aee996795c98"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[1.Bằng việc đặt cọc này Bên A cam kết mua đất của bên B tại ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="636" width="552" height="50" uuid="a74cce28-f389-433c-ae65-8775c8064b70"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Bên B nhận tiền đặt cọc và cam kết sẽ bán đất thuộc sở hữu hợp pháp và không có bất kỳ tranh chấp nào liên quan đến mảnh đất mà bên B giao bán cho bên A tại: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="706" width="106" height="20" uuid="e47dbe0f-ac06-49aa-bfc7-806be1d716d4"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[với diện tích là:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="706" width="80" height="20" uuid="2ee02249-4e5c-4877-a2ff-170ab3dcc61b"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[giá bán là:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="726" width="552" height="40" uuid="e2d03726-6421-4766-9077-bad57f22d79c"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[2. Trong thời gian đặt cọc, bên B cam kết sẽ làm các thủ tục pháp lý để chuyển nhượng quyền sử dụng đất cho bên A, bên A cam kết sẽ trả:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="766" width="480" height="30" uuid="f5f1461b-8933-4f96-9d57-57bfb5601d5a"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[khi hai bên ký hợp đồng mua bán đất tại phòng công chứng Nhà Nước,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="190" width="300" height="20" uuid="4f80a444-5ebc-4f05-8450-db0845022545"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Ten}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="83" y="210" width="300" height="20" uuid="6897c764-774c-422d-8954-061bf7250190"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NgaySinh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="182" y="230" width="120" height="20" uuid="62918697-bab7-4471-be51-ba965045dbd1"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CMND}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="378" y="230" width="130" height="20" uuid="74fcc1cc-5d58-4c30-bfb8-8539c7ce8264"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NgayCap}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="31" y="250" width="524" height="20" uuid="30ef22e3-e2ea-42b3-b403-00e09b77ca2c"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NoiCap}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="270" width="414" height="20" uuid="b0775375-5b0d-460a-aff6-c4328cbb94de"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{HoKhau}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="358" y="490" width="152" height="20" uuid="ce4ee68d-f67e-4e87-a1d1-6e18da804f51"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GiaDC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="560" width="40" height="20" uuid="79311e65-5b8b-4963-b270-8a6c9fad6c4c"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ThoiHan}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="180" y="560" width="40" height="20" uuid="4228dcd8-ab09-4657-9469-4c8c6792ffba"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[ngày]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="300" y="560" width="124" height="20" uuid="52a43e29-0572-4bd3-93a3-c43d01164121"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{BatDau}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="680" width="550" height="20" uuid="98de0aa5-1c51-431e-8731-7d55ac01f10d"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ViTri}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="106" y="706" width="74" height="20" uuid="397be066-0519-40cd-bbad-17e7588d180d"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{DienTich}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="706" width="150" height="20" uuid="69e617a8-6611-4d10-8dbc-00cf9e922db6"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GiaSP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="746" width="110" height="20" uuid="6ac8f0d7-03d9-4fb0-bd6d-c632879aaec5"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GiaSP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="510" width="475" height="20" uuid="b249ad69-09d0-4e6e-ad6a-0cc902324969"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GiaDCBangChu}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="802">
+			<staticText>
+				<reportElement x="0" y="130" width="308" height="40" uuid="987d5084-266f-44e2-bd3a-2cc7c1daa328"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 4: NGHĨA VỤ VÀ QUYỀN CỦA BÊN A
+1. Bên A có các nghĩa vụ sau đây:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="330" width="554" height="100" uuid="54e5127a-174c-49e5-b048-b3d3a896d513"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[a) Giao số tiền đặt cọc cho Bên B theo đúng thỏa thuận ngay khi ký hợp đồng đặt cọc;
+
+b) Giao kết hoặc thực hiện nghĩa vụ dân sự đã thỏa thuận tại Điều 3 nêu trên. Nếu Bên A từ chối giao kết hoặc thực hiện nghĩa vụ dân sự (mục đích đặt cọc không đạt được) thì Bên A bị mất số tiền đặt cọc;]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="310" width="280" height="20" uuid="32dd3d09-3ab1-4a90-9288-75353cce48a9"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2. Bên A có các quyền sau đây:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="170" width="552" height="140" uuid="55b40638-7f96-41f2-9edb-1c7f85ccdf12"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[a) Nhận lại số tiền đặt cọc từ Bên B hoặc được trừ khi thực hiện nghĩa vụ trả tiền cho Bên B trong trường hợp 2 Bên giao kết hoặc thực hiện nghĩa vụ dân sự đã thỏa thuận tại điều 3(mục đích đặt cọc đạt được);
+
+b) Nhận lại số tiền đặt cọc và một khoản tiền bằng số tiền đặt cọc trong trường hợp Bên B từ chối việc giao kết hoặc thực hiện nghĩa vụ dân sự đã thỏa thuận tại điều 3(mục đích đặt cọc không đạt được);]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="430" width="308" height="40" uuid="6111cb94-6521-4bc3-a84e-aa0c294c4ff5"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 5: NGHĨA VỤ VÀ QUYỀN CỦA BÊN B
+1. Bên B có các nghĩa vụ sau đây:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="660" width="232" height="20" uuid="a4aa3838-82a2-4693-a0a8-d68b119fb500"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2. Bên B có các quyền sau đây:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="470" width="554" height="190" uuid="07e32988-7cd0-4d33-95fc-64d1924572f8"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[a) Trả lại số tiền đặt cọc cho Bên A hoặc trừ để thực hiện nghĩa vụ trả tiền trong trường hợp 2 Bên giao kết hoặc thực hiện nghĩa vụ dân sự đã thỏa thuận tại điều 3 (mục đích đặt cọc đạt được);
+
+b) Trả lại số tiền đặt cọc và một khoản tiền bằng số tiền đặt cọc cho Bên A trong trường hợp Bên B từ chối việc giao kết hoặc thực hiện nghĩa vụ dân sự đã thỏa thuận tại điều 3(mục đích đặt cọc không đạt được);
+
+c) Bên B có nghĩa vụ dọn dẹp sạch sẽ mặt bằng khi giao đất để trả lại mặt bằng đất thổ cư cho bên A.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="680" width="554" height="40" uuid="b78b2ead-06e3-4bfd-988a-d599475d64ec"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Sở hữu số tiền đặt cọc nếu Bên A từ chối giao kết hoặc thực hiện nghĩa vụ dân sự đã thỏa thuận tại điều 3 (mục đích đặt cọc không đạt được).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="730" width="280" height="22" uuid="68388dcc-4730-4b24-8a69-561522e24b16"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 6: PHƯƠNG THỨC GIẢI QUYẾT TRANH CHẤP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="552" height="120" uuid="b3b550fc-1595-4856-af77-ce6915aa9b93">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[sẽ được bên A thanh toán nốt khi bên B giao giấy chứng nhận quyền sử dụng đất. Bên B cam kết sẽ giao giấy chứng nhận quyền sử dụng đất trong vòng 7 ngày kể từ ngày bên A và bên B ký hợp đồng mua bán tại phòng công chứng Nhà Nước. Bên B có nghĩa vụ nộp các khoản thuế phát sinh trong quá trình giao dịch theo đúng quy định của pháp luật (đối với thuế đất, thuế chuyển nhượng bên B sẽ là người thanh toán mà bên A không phải trả bất cứ khoản phí nào) .]]></text>
+			</staticText>
+		</band>
+		<band height="558">
+			<staticText>
+				<reportElement x="0" y="-40" width="554" height="140" uuid="aa039a36-c064-472f-bb70-5d54cd4e5b26"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Trong quá trình thực hiện Hợp đồng mà phát sinh tranh chấp, các bên cùng nhau thương lượng giải quyết trên nguyên tắc tôn trọng quyền lợi của nhau; nếu mảnh đất trên thuộc diện quy hoạch không giao dịch được thì bên B phải hoàn trả lại 100% số tiền mà bên A đã giao cho bên B . Trong trường hợp không giải quyết được, thì một trong hai bên có quyền khởi kiện để yêu cầu toà án có thẩm quyền giải quyết theo quy định của pháp luật. Mọi tranh chấp sẽ được phán xử theo quy định của luật pháp của Việt Nam.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="100" width="260" height="20" uuid="ccee6498-0d72-4009-b69d-f20eaf1431b0"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 7: CAM ĐOAN CỦA CÁC BÊN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="130" width="552" height="160" uuid="2bc57534-3cd5-4be5-b0f2-6b0f0aeeaa64"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Bên A và bên B chịu trách nhiệm trước pháp luật về những lời cam đoan sau đây:
+
+1. Việc giao kết Hợp đồng này hoàn toàn tự nguyện, không bị lừa dối hoặc ép buộc.
+
+2. Thực hiện đúng và đầy đủ tất cả các thoả thuận đã ghi trong Hợp đồng này.
+
+3. Bên B đã nhận đủ số tiền đặt cọc nêu trong điều 1 từ bên A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="300" width="200" height="20" uuid="74e44e76-62f3-4eb1-ab1c-8d75a0c5a448"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 8: ĐIỀU KHOẢN CUỐI CÙNG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="330" width="552" height="140" uuid="7f876104-7dfc-4c13-924d-772d868280a5"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[1. Hai bên công nhận đã hiểu rõ quyền, nghĩa vụ và lợi ích hợp pháp của mình, ý nghĩa và hậu quả pháp lý của việc giao kết Hợp đồng này.
+
+2. Hai bên đã tự đọc Hợp đồng, đã hiểu và đồng ý tất cả các điều khoản ghi trong Hợp đồng và ký vào Hợp đồng này trước sự có mặt của người làm chứng.
+
+3. Hợp đồng có hiệu lực từ: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="470" width="554" height="50" uuid="61b6789c-5203-41b2-b45e-1793b1b13e7d"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Hợp đồng Đặt Cọc bao gồm 04 trang được chia làm bốn bản có giá trị pháp lý như nhau, mỗi bên giữ hai bản.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="530" width="308" height="20" uuid="e3b5dd0d-742f-4b7d-b565-1905eda433ae"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[		, ngày 	tháng 	 năm 20		]]></text>
+			</staticText>
+		</band>
+		<band height="364">
+			<staticText>
+				<reportElement x="87" y="20" width="54" height="20" uuid="984a8266-49cd-4507-8cc0-d420043723c9"/>
+				<textElement textAlignment="Center">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bên A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="100" width="50" height="20" uuid="9838b48b-8b63-4960-9648-74345b77e8c2"/>
+				<textElement textAlignment="Center">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bên B]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="46" y="40" width="136" height="30" uuid="880ed1cc-b30e-4093-9574-8aa52e8e8a8f"/>
+				<textElement textAlignment="Center">
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="120" width="130" height="30" uuid="18910075-f3ea-48ce-b560-046d4d0c3913"/>
+				<textElement textAlignment="Center">
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký, ghi rõ họ tên)]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

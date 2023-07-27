@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ChuyenNhuong" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="afe61d6e-5bb4-48c0-a515-45cc2514e2de">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="GiaCNBangChu" class="java.lang.String"/>
+	<parameter name="GiaCN" class="java.lang.String"/>
+	<parameter name="BDienThoai" class="java.lang.String"/>
+	<parameter name="BDiaChi" class="java.lang.String"/>
+	<parameter name="BHoKhau" class="java.lang.String"/>
+	<parameter name="BNgayCap" class="java.lang.String"/>
+	<parameter name="BCMND" class="java.lang.String"/>
+	<parameter name="BNamSinh" class="java.lang.String"/>
+	<parameter name="BTen" class="java.lang.String"/>
+	<parameter name="ADienThoai" class="java.lang.String"/>
+	<parameter name="ADiaChi" class="java.lang.String"/>
+	<parameter name="AHoKhau" class="java.lang.String"/>
+	<parameter name="ANgayCap" class="java.lang.String"/>
+	<parameter name="ACMND" class="java.lang.String"/>
+	<parameter name="ANamSinh" class="java.lang.String"/>
+	<parameter name="ATen" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="221" y="40" width="112" height="20" uuid="6b212c2f-8941-4dcc-a99a-70cfcc121fd1"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[———————]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="83" y="0" width="404" height="20" uuid="bea1fe61-2104-4b98-9507-4a6a55dc4d07"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="163" y="20" width="230" height="20" uuid="b8f2ac70-8e11-4c79-a259-1ce4194e13cc"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Độc lập - Tự do - Hạnh phúc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="68" y="70" width="434" height="40" uuid="43e791de-fcc3-428e-b138-69e185f31156"/>
+				<textElement textAlignment="Center">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HỢP ĐỒNG CHUYỂN NHƯỢNG QUYỀN SỬ DỤNG ĐẤT
+VÀ TÀI SẢN GẮN LIỀN VỚI ĐẤT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="161" y="110" width="248" height="20" uuid="d8a1bb03-d237-48be-9f4b-d611d2074446"/>
+				<textElement>
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Số: ……………./HĐCNQSDĐ,TSGLĐ)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="150" width="560" height="60" uuid="0617f492-b53c-4c75-a87a-94e4e6e0f8d3"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Hôm nay, ngày	tháng 	năm 		, Tại 					
+
+Chúng tôi gồm có:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="210" width="240" height="20" uuid="11682f43-c783-4f8d-a612-154a18f29ca1"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN CHUYỂN NHƯỢNG (BÊN A):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="230" width="560" height="180" uuid="4097b4be-c94b-47d0-a2b2-5196b4b95589"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Ông/bà: 					Năm sinh: 	
+
+CMND số: 		                                      Ngày cấp 		 	
+
+Hộ khẩu: 		
+
+Địa chỉ: 		
+
+Điện thoại: 	
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="450" width="300" height="20" uuid="875c2b94-7ecd-46ea-8add-3d6abbff1aa2"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN NHẬN CHUYỂN NHƯỢNG (BÊN B):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="470" width="560" height="170" uuid="5a8a976f-4ddc-4dea-9b46-e6ee5e32c696"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Ông/bà: 					Năm sinh: 	
+
+CMND số: 		                                      Ngày cấp 		  	
+
+Hộ khẩu: 		
+
+Địa chỉ: 		
+
+Điện thoại: 		]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="650" width="560" height="40" uuid="3a985f29-7016-45e3-8aa9-2230f8412b69"/>
+				<textElement>
+					<font size="15" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Hai bên đồng ý thực hiện việc chuyển nhượng quyền sử dụng đất và tài sản gắn liền với đất theo các thoả thuận sau đây:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="700" width="560" height="40" uuid="a7aa9839-1e05-4a53-96bb-b8dfacdc52bb"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 1: QUYỀN SỬ DỤNG ĐẤT VÀ TÀI  SẢN GẮN LIỀN VỚI ĐẤT CHUYỂN NHƯỢNG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="740" width="560" height="62" uuid="d3ccaf9c-7bf1-4982-b686-00a0572982ab"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[1.1. Quyền sử dụng đất
+
+Quyền sử dụng đất của bên A đối với thửa đất theo cụ thể như sau:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="61" y="229" width="169" height="20" uuid="32c11b37-615c-4f25-b135-537e25b6ade6">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ATen}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="229" width="179" height="20" uuid="b6d4497f-438b-4bb1-ae52-084a33b99fe9">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ANamSinh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="267" width="190" height="20" uuid="3717f0b5-d798-4fb0-92d4-30b7243c500e">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ACMND}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="267" width="190" height="20" uuid="3d56f5e6-be75-4493-9b1e-fb7863862a19">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ANgayCap}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="305" width="490" height="20" uuid="15b806b3-f1de-4129-96ec-611429bb19f0">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{AHoKhau}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="343" width="490" height="20" uuid="168d15ca-9b34-4db3-a0fa-62b30f1b85aa">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ADiaChi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="380" width="200" height="20" uuid="fe8c3b4f-27a8-4a2c-b950-f0df3c1af36c">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ADienThoai}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="61" y="470" width="169" height="20" uuid="8397cf1b-e490-4187-9fc5-b7d963297e58">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{BTen}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="310" y="470" width="179" height="20" uuid="115cdc69-0bbe-4b11-a763-afa0c260b647">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{BNamSinh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="507" width="190" height="20" uuid="c5975f6a-e516-4267-a7a0-c7bd377c78ca">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{BCMND}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="350" y="507" width="190" height="20" uuid="bfa85ccc-b2a2-49dc-89b8-f28ba612c65f">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{BNgayCap}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="68" y="545" width="490" height="20" uuid="1532398a-47a0-466d-a80f-8b3ceab8e642">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{BHoKhau}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="583" width="490" height="20" uuid="ba15539a-fa30-4424-9bb2-4615248c7b11">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{BDiaChi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="621" width="200" height="20" uuid="900882de-93ae-4380-9125-038c8d8d4a3c">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{BDienThoai}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="-2" y="40" width="560" height="140" uuid="b3ecade9-0d73-4ef6-924e-4dbb8d9b1a8e"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[2.1. Giá chuyển nhượng quyền sử dụng đất và tài sản gắn liền với đất nêu tại Điều 1 của Hợp đồng này là: 					 đồng.
+
+(Bằng chữ:							     đồng Việt Nam).
+
+2.2. Việc thanh toán số tiền nêu tại khoản 1 Điều này do hai bên tự thực hiện và chịu trách nhiệm trước pháp luật.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="220" width="560" height="120" uuid="73257804-8fd7-4c50-abba-657986c99bb7">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[3.1. Việc đăng ký chuyển nhượng quyền sử dụng đất và tài sản gắn liền với đất tại cơ quan có thẩm quyền theo quy định của pháp luật do bên A chịu trách nhiệm thực hiện.
+
+3.2. Lệ phí liên quan đến việc chuyển nhượng quyền sử dụng đất và tài sản gắn liền với đất theo Hợp đồng này do bên A chịu trách nhiệm nộp.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="180" width="560" height="40" uuid="3c28317b-140b-4bf1-934a-b7c8fb85e9c0"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 3: VIỆC ĐĂNG KÝ TẶNG CHO QUYỀN SỬ DỤNG ĐẤT VÀ TÀI SẢN GẮN LIỀN VỚI ĐẤT VÀ LỆ PHÍ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="340" width="560" height="38" uuid="4b4c11de-5048-4d46-8031-dc229bb996d6"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 4: VIỆC GIAO VÀ ĐĂNG KÝ QUYỀN SỬ DỤNG ĐẤT, ĐĂNG KÝ QUYỀN SỞ HỮU TÀI SẢN GẮN LIỀN VỚI ĐẤT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="382" width="560" height="60" uuid="aabff5ab-c4ba-4dd3-a178-9afe7b51ef7a"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[4.1. Bên A có nghĩa vụ giao thửa đất và tài sản gắn liền với đất nêu tại Điều 1 của Hợp đồng này cùng với giấy tờ về quyền sử dụng đất, giấy tờ về quyền sở hữu tài sản gắn liền với đất cho bên B vào thời điểm 		
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="9" width="480" height="20" uuid="5745be71-6d97-4ee0-82a7-6be2befee92f"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 2: GIÁ CHUYỂN NHƯỢNG VÀ PHƯƠNG THỨC THANH TOÁN]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="163" y="58" width="152" height="20" uuid="56a3057b-e372-407c-9060-6beea3dedbb9">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GiaCN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="79" y="96" width="250" height="20" uuid="14509ff1-8c19-436a-9753-39596bcef55d">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GiaCNBangChu}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="0" y="-268" width="560" height="40" uuid="feb0fff2-cf6f-4be0-888c-02c6ff2d6665"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Thuế, lệ phí liên quan đến việc chuyển nhượng quyền sử dụng đất và tài sản gắn liền với đất theo Hợp đồng này do bên 	 chịu trách nhiệm nộp.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-288" width="310" height="20" uuid="1ca68bbe-c4f4-47cb-93fe-6f881cd5bcb9"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 5: TRÁCH NHIỆM NỘP THUẾ, LỆ PHÍ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-338" width="560" height="40" uuid="c5806142-d95b-4f7f-9cff-ca2e960e5236"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[4.2. Bên B có nghĩa vụ thực hiện đăng ký quyền sử dụng đất, đăng ký quyền sở hữu tài sản gắn liền với đất tại cơ quan có thẩm quyền theo quy định của pháp luật.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-218" width="380" height="20" uuid="1d31c85e-cf45-4b54-a070-7945cf21351e"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 6: QUYỀN VÀ NGHĨA VỤ CỦA BÊN A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-198" width="560" height="360" uuid="dab87bae-ac5c-4e60-9f4c-3e9361fb5f6e"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[6.1. Nghĩa vụ của bên A:
+
+a) Chuyển giao đất, tài sản gắn liền với đất cho bên B đủ diện tích, đúng hạng đất, loại đất, vị trí, số hiệu, tình trạng đất  và tài sản gắn liền với đất như đã thoả thuận;
+
+b) Giao giấy tờ có liên quan đến quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho bên B.
+
+6.2. Quyền của bên A:
+
+Bên A có quyền được nhận tiền chuyển nhượng quyền sử dụng đất, tài sản gắn liền với đất; trường hợp bên B chậm trả tiền thì bên A có quyền:
+
+a) Gia hạn để bên B hoàn thành nghĩa vụ; nếu quá thời hạn này mà nghĩa vụ vẫn chưa được hoàn thành thì theo yêu cầu của bên A, bên B vẫn phải thực hiện nghĩa vụ và bồi thường thiệt hại;
+
+b) Bên B phải trả lãi đối với số tiền chậm trả theo lãi suất cơ bản do Ngân hàng Nhà nước công bố tương ứng với thời gian chậm trả tại thời điểm thanh toán.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="174" width="310" height="20" uuid="c9aa2785-4960-475b-86d0-5e7ce7a1190b"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 7: QUYỀN VÀ NGHĨA VỤ CỦA BÊN B]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="194" width="560" height="190" uuid="ecfbafab-5621-4f86-a085-96e4ed5deeca"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[7.1. Nghĩa vụ của bên B:
+
+a) Trả đủ tiền, đúng thời hạn và đúng phương thức đã thoả thuận cho bên A;
+
+b) Đăng ký quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai;
+
+c) Bảo đảm quyền của người thứ ba đối với đất chuyển nhượng;
+
+d) Thực hiện các nghĩa vụ khác theo quy định của pháp luật về đất đai.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="394" width="560" height="72" uuid="c8191655-ba09-4ef9-b89c-af0963a8c40c"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[7.2. Quyền của bên B:
+
+a) Yêu cầu bên A giao cho mình giấy tờ có liên quan đến quyền sử dụng đất;]]></text>
+			</staticText>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="0" y="-336" width="560" height="140" uuid="86d85bf5-ef08-4f8e-8d68-6679edfaa5a8"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[b) Yêu cầu bên A giao đất đủ diện tích, đúng hạng đất, loại đất, vị trí, số hiệu, tình trạng đất và tài sản gắn liền với đất như đã thoả thuận;
+
+c) Được cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất được chuyển nhượng;
+
+d) Được sử dụng đất, tài sản gắn liền với đất theo đúng mục đích, đúng thời hạn.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-186" width="560" height="20" uuid="43a942b8-86a8-4420-90cd-9ce93624afb9"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 8: PHƯƠNG THỨC GIẢI QUYẾT TRANH CHẤP HỢP ĐỒNG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-166" width="560" height="80" uuid="c7fda41b-4bb7-4c7a-9de4-545f12b6d8d3"/>
+				<textElement>
+					<font size="15" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Trong quá trình thực hiện Hợp đồng này, nếu phát sinh tranh chấp, các bên cùng nhau thương lượng giải quyết trên nguyên tắc tôn trọng quyền lợi của nhau; trong trường hợp không giải quyết được thì một trong hai bên có quyền khởi kiện để yêu cầu toà án có thẩm quyền giải quyết theo quy định của pháp luật.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-66" width="280" height="20" uuid="b54c7c1b-d853-4207-8917-fdbae69f0a2a"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 9: CAM ĐOAN CỦA CÁC BÊN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-36" width="560" height="480" uuid="50174e61-ae7d-4d0f-bef0-e556a2ccc4ed"/>
+				<textElement>
+					<font size="15" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Bên A và bên B chịu trách nhiệm trước pháp luật về những lời cam đoan sau đây:
+
+9.1. Bên A cam đoan:
+
+a) Những thông tin về nhân thân, về thửa đất và tài sản gắn liền với đất đã ghi trong Hợp đồng này là đúng sự thật;
+
+b) Thửa đất thuộc trường hợp được chuyển nhượng quyền sử dụng đất theo quy định của pháp luật;
+
+c) Tại thời điểm giao kết Hợp đồng này:
+
+   – Thửa đất và tài sản gắn liền với đất không có tranh chấp;
+
+   – Quyền sử dụng đất và các tài sản gắn liền với đất không bị kê biên để bảo đảm thi hành án;
+
+d) Việc giao kết Hợp đồng này hoàn toàn tự nguyện, không bị lừa dối, không bị ép buộc;
+
+e) Thực hiện đúng và đầy đủ các thoả thuận đã ghi trong Hợp đồng này.
+
+9.2. Bên B cam đoan:
+
+a) Những thông tin về nhân thân đã ghi trong Hợp đồng này là đúng sự thật;
+
+]]></text>
+			</staticText>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="0" y="-336" width="560" height="160" uuid="8b04d142-80cf-4bb7-8b59-73f2ecf51bbf"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[b) Đã xem xét kỹ, biết rõ về thửa đất và tài sản gắn liền với đất nêu tại Điều 1 của Hợp đồng này và các giấy tờ về quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất;
+
+c) Việc giao kết Hợp đồng này hoàn toàn tự nguyện, không bị lừa dối, không bị ép buộc;
+
+d) Thực hiện đúng và đầy đủ các thoả thuận đã ghi trong Hợp đồng này.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-166" width="230" height="20" uuid="db4485be-1d0c-43f0-85e5-b0ac8e5e30c1"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 10: ĐIỀU KHOẢN CHUNG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="-146" width="560" height="190" uuid="63d6d4b1-96b7-4f53-86f3-8e60d0f0cc62"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[10.1. Hai bên hiểu rõ quyền, nghĩa vụ và lợi ích hợp pháp của mình được thỏa thuận trong hợp đồng này.
+
+10.2. Hai bên đã tự đọc lại hợp đồng này, đã hiểu và đồng ý tất cả các điều khoản đã ghi trong hợp đồng.
+
+10.3. Hợp đồng này có hiệu lực kể từ ngày …… tháng ……. năm …… đến ngày …… tháng ….. năm …….
+
+Hợp đồng được lập thành 02 bản, mỗi bên giữ một bản và có giá trị như nhau.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="89" y="64" width="52" height="24" uuid="8c63bf77-fa6c-40ee-b0be-c5499b5fe5e0"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="64" width="56" height="24" uuid="74ab161c-f534-4049-9f2d-f0c74eb39327"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN B]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="88" width="210" height="20" uuid="1c3b9874-24ed-4b04-ae20-f823932e3795"/>
+				<textElement>
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký, điểm chỉ và ghi rõ họ tên)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="316" y="88" width="210" height="20" uuid="fd2b1381-1e42-4a8c-aa72-004f62e4e0ac"/>
+				<textElement>
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký, điểm chỉ và ghi rõ họ tên)]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

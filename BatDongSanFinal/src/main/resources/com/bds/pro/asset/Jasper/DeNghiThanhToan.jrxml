@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.2.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DeNghiThanhToan" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e28590ea-652d-415b-8adb-bca19a9fb1e1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+	<parameter name="Ngay" class="java.lang.String"/>
+	<parameter name="Thang" class="java.lang.String"/>
+	<parameter name="Nam" class="java.lang.String"/>
+	<parameter name="Name" class="java.lang.String"/>
+	<parameter name="CMND" class="java.lang.String"/>
+	<parameter name="ThanhPho" class="java.lang.String"/>
+	<parameter name="CapNgay" class="java.lang.String"/>
+	<parameter name="MaHD" class="java.lang.String"/>
+	<parameter name="Date" class="java.lang.String"/>
+	<parameter name="NgayThanhToan" class="java.lang.String"/>
+	<parameter name="TienCK" class="java.lang.String"/>
+	<parameter name="TgTT" class="java.lang.String"/>
+	<parameter name="DiaChi" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="154" splitType="Stretch">
+			<staticText>
+				<reportElement x="77" y="10" width="400" height="30" uuid="d838e9e0-b445-4638-9c95-5f55701a15f3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="44" width="400" height="30" uuid="0b29d638-ac2b-45dd-8602-467d7bce047d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="17" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Độc Lập - Tự Do - Hạnh Phúc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="80" width="50" height="16" uuid="ba01b5aa-2236-4d26-9ff2-f3444cdc191f"/>
+				<textElement>
+					<font fontName="Cambria" size="13" isBold="false"/>
+				</textElement>
+				<text><![CDATA[TP.HCM,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="240" y="80" width="30" height="16" uuid="d0b19e3b-d471-4a43-9471-bf268c841be9">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Cambria" size="13" isBold="false"/>
+				</textElement>
+				<text><![CDATA[ngày]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="80" width="40" height="16" uuid="15b7e847-67f0-4cc9-a6a5-b4f78a0b0015">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Cambria" size="13" isBold="false"/>
+				</textElement>
+				<text><![CDATA[tháng]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="340" y="80" width="30" height="16" uuid="864b345c-1a97-49b8-850b-3076fc490cbe"/>
+				<textElement>
+					<font fontName="Cambria" size="13" isBold="false"/>
+				</textElement>
+				<text><![CDATA[năm]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="110" width="400" height="20" uuid="cdf2f9f7-c4aa-4088-9976-53ace1509b53"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[GIẤY ĐỀ NGHỊ THANH TOÁN NỢ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="130" width="400" height="20" uuid="ef17ed56-7cd9-4459-94d3-ec636e5dc3f2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[(V/V yêu cầu thực hiện đúng nghĩa vụ đã cam kết)
+
+(V/V yêu cầu thực hiện đúng nghĩa vụ đã cam kết)
+
+(V/V yêu cầu thực hiện đúng nghĩa vụ đã cam kết)
+
+]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="271" y="80" width="19" height="16" uuid="1c8250eb-92a5-476f-b678-a804276c8cbf">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Ngay}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="80" width="10" height="16" uuid="8ed8e0d6-900d-40d2-8080-a6a6f823e19a">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Thang}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="80" width="70" height="16" uuid="0e96af17-5825-4db1-bc73-87099721cdf5"/>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Nam}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="490" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="120" height="23" uuid="a05d2728-2ea4-44f4-83bc-a0a08ffc9837"/>
+				<textElement>
+					<font fontName="Cambria" size="15" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Kính Gửi: Ông/Bà]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="33" width="70" height="23" uuid="b50a3e11-76c7-46b3-9e82-da81c8c36f7a"/>
+				<textElement>
+					<font fontName="Cambria" size="15" isBold="false"/>
+				</textElement>
+				<text><![CDATA[CMND số:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="60" width="180" height="23" uuid="c8236121-2d4b-48f1-9256-d274b337ee68"/>
+				<textElement>
+					<font fontName="Cambria" size="15" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Do Công an tỉnh/thành phố:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="87" width="66" height="23" uuid="a3104814-0723-4670-8aaf-9c7df0a07c78"/>
+				<textElement>
+					<font fontName="Cambria" size="15" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Cấp ngày:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="110" width="230" height="23" uuid="be211011-b1ca-4367-a6be-1a3b72f88219"/>
+				<textElement>
+					<font fontName="Cambria" size="15" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Hộ khẩu thường trú tại đăng ký tại:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="138" width="139" height="19" uuid="2e8de9f2-702f-4185-b164-40cdea0c32ca"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Thực hiện hợp đồng:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="138" width="59" height="19" uuid="a254c80f-242c-43a7-8ecf-9ae5ad2419b3"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[ký ngày:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="138" width="239" height="19" uuid="3e55233d-63b2-4a02-8488-3d882b975b0e"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[giữa Ông/bà (bên A) và tôi (bên B), bên B]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="159" width="550" height="19" uuid="6a68c0b2-3b39-4361-ba4e-1775a10cd497"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[bên B đã đảm bảo thực hiện đúng theo thỏa thuận hai bên. Và trước đó, hai bên cũng]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="178" width="259" height="19" uuid="4a7b28a1-025c-4fae-a648-e1adfe63004b"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[đã xác nhận về việc thanh toán hợp đồng]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="200" width="538" height="20" uuid="bd2a27aa-96c4-43bd-901b-125160fe96f8"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Dựa theo điều khoản thanh toán hợp đồng (Điều 3) thì bên A phải thanh toán tiền ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="220" width="470" height="20" uuid="f0b03432-d4e0-4d5d-9fb0-85e7d7f1efd7"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[cho bên B bằng tiền mặt hoặc theo hình thức chuyển khoản với số tiền là  ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="245" width="238" height="20" uuid="876361de-200a-4cf2-9640-57caa9b7cd3e"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Thời gian hoàn thành thanh toán là:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="270" width="538" height="39" uuid="a1854716-591a-457d-93ff-b90698186d0f"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Tuy nhiên đến nay đã quá thời hạn nêu trên mà bên A là Ông/Bà vẫn không thanh toán đúng theo như thỏa thuận của hợp đồng được nêu ở trên.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="310" width="538" height="91" uuid="02d4049f-d10a-4c2c-924b-88c2e6bf9ac3"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Vì vậy tôi kính đề nghị Ông/Bà (bên A) thanh toán đúng số tiền theo quy định của hợp đồng. Sau 15 ngày kể từ ngày nhận được thông báo này, nếu bên A(Ông/Bà) Không thực hiện nghĩa vụ thanh toán theo đúng hợp đồng. Tôi (bên B) sẽ dựa vào pháp luật để buộc Ông/Bà phải thực hiện đúng nghĩa vụ và buộc Ông/Bà thanh toán thêm 15% giá trị đặt cọc.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="401" width="538" height="59" uuid="85bfaac2-4fed-4302-90b7-957aa98f98a1"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Rất mong nhận được sự hợp tác từ Ông/Bà !
+
+Tôi xin chân thành cảm ơn.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="460" width="100" height="19" uuid="fa2970bb-ffd5-4469-af73-b9262c68d8fd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ký Xác Nhận]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="120" y="10" width="410" height="22" uuid="d550c2fe-3a48-4ed1-9fc2-bc0ac0159d10"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="33" width="458" height="22" uuid="00228b49-14dd-4bd5-b35d-a78209e881aa"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CMND}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="180" y="60" width="354" height="22" uuid="ad758bd3-a7c3-4d8d-afb7-22855550c1be"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ThanhPho}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="69" y="87" width="200" height="22" uuid="37f02a3d-28c7-464d-bded-5925e1ccb751"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CapNgay}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="139" y="138" width="51" height="18" uuid="7b470bc3-6f0d-4b17-9aad-e57b919b0e23"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{MaHD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="138" width="80" height="18" uuid="cc826d19-7e3e-4b64-b61a-706cbf943d1f"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="220" width="100" height="21" uuid="9210321b-54cb-4433-9ac2-bb87b34ab0b4"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{TienCK}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="245" width="100" height="20" uuid="72f95f8c-05c6-42be-99a1-8e0030b13d97"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{TgTT}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="231" y="110" width="299" height="22" uuid="750ee6be-87e5-4770-b2b9-6c09688ffdea"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{DiaChi}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="26" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

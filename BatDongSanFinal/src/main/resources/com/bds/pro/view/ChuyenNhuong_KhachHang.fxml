@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #e4dfd7;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bds.pro.controller.ChuyenNhuong_KhachHangController">
+    <children>
+        <HBox prefHeight="40.0" prefWidth="1366.0" style="-fx-background-color: #cfccc9;">
+            <children>
+                <MenuButton fx:id="mbtnHD" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="98.0" style="-fx-background-color: #cfccc9;" text="Contract" textAlignment="CENTER">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#datcoc" text="Deposit contract" />
+                        <MenuItem mnemonicParsing="false" onAction="#muaban" text="Sale contract" />
+                        <MenuItem mnemonicParsing="false" onAction="#chuyennhuong" text="Transfer contract" />
+                        <MenuItem mnemonicParsing="false" onAction="#phuluc" text="Contract Addendum" />
+                        <MenuItem mnemonicParsing="false" onAction="#thanhly" text="Liquidation contract" />
+                    </items>
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </MenuButton>
+                <MenuButton mnemonicParsing="false" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: #cfccc9;" text="More information">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#duan" text="Project" />
+                  <MenuItem mnemonicParsing="false" onAction="#xemduan" text="View Project" />
+                        <MenuItem mnemonicParsing="false" onAction="#chudautu" text="Investor" />
+                        <MenuItem mnemonicParsing="false" onAction="#khuduan" text="Project area" />
+                        <MenuItem mnemonicParsing="false" onAction="#dvthicong" text="Construction unit" />
+                        <MenuItem mnemonicParsing="false" onAction="#sanpham" text="Product" />
+                        <MenuItem mnemonicParsing="false" onAction="#khachhang" text="Client" />
+                    </items>
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </MenuButton>
+                <Button mnemonicParsing="false" onAction="#btnLogout" prefHeight="40.0" prefWidth="91.0" style="-fx-background-color: #cfccc9;" text="Logout" textAlignment="CENTER">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+        <Text fill="RED" layoutX="412.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHOOSE TRANSFER CUSTOMERS" textAlignment="CENTER">
+            <font>
+                <Font name="Segoe Print" size="30.0" />
+            </font>
+        </Text>
+        <GridPane fx:id="Header" layoutX="383.0" layoutY="140.0">
+        </GridPane>
+        <ScrollPane hbarPolicy="NEVER" layoutX="382.0" layoutY="168.0" prefHeight="300.0" prefWidth="605.0" style="-fx-background-color: transparent;" vbarPolicy="NEVER">
+            <content>
+                <GridPane fx:id="Body">
+                </GridPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>

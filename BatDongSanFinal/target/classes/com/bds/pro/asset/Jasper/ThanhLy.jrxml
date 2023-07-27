@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ThanhLy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="144b1c97-200f-4fb0-8ac7-830ce820165e">
+	<parameter name="HDMB" class="java.lang.String"/>
+	<parameter name="NoiCap" class="java.lang.String"/>
+	<parameter name="NgayCap" class="java.lang.String"/>
+	<parameter name="CMND" class="java.lang.String"/>
+	<parameter name="SinhNgay" class="java.lang.String"/>
+	<parameter name="Ten" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="83" y="0" width="404" height="20" uuid="a995f2d1-2e80-41a2-871a-35350806b6c4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="163" y="20" width="230" height="20" uuid="32ee15da-98bf-426e-b751-7418b30b6933"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Độc lập - Tự do - Hạnh phúc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="221" y="40" width="112" height="20" uuid="ccada226-83fb-4715-a371-e85f54d9a287"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[———————]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="152" y="80" width="252" height="30" uuid="d7ed26cc-a742-4c4a-bec5-3004fcd6d793"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BIÊN BẢN THANH LÝ HỢP ĐỒNG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="123" y="110" width="310" height="30" uuid="afe1e98e-0b6f-435f-82bd-ccba4da36b5c"/>
+				<textElement>
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Thanh lý Hợp đồng mua bán nhà đất số…….)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="150" width="560" height="140" uuid="acf0f93e-447f-4231-b020-c86d58374a1a"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[– Căn cứ Bộ luật Dân sự của Quốc Hội nước CHXHCN Việt Nam năm 2015.
+
+– Căn cứ vào Hợp đồng 	
+
+– Căn cứ nhu cầu và khả năng của các Bên;
+
+Hôm nay, ngày	 tháng 	năm 		, tại 				, chúng tôi gồm:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="320" width="550" height="180" uuid="a66dd0fb-8a27-42a2-a028-0b152cf4ac21"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Địa chỉ: 36/5, đường D5, phường 25, quận Bình Thạnh, TP.HCM
+
+VPGD: Công ty bất động sản DDT
+
+Điện thoại: 0925299961  Fax: +84 925299961 Email: bdsddt@gmail.com
+
+Đại diện: Nguyễn Huy Thuận
+
+Chức vụ: Trưởng phòng kinh doanh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="300" width="260" height="20" uuid="f6c7f20d-ee4a-4896-a469-3e7d30ee34fe"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN CÔNG TY BẤT ĐỘNG SẢN DDT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="300" width="180" height="20" uuid="34e20179-6fba-408d-8514-1ea499d0eec2"/>
+				<textElement>
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Sau đây gọi tắt là Bên A)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="500" width="110" height="20" uuid="19ee656e-2430-4987-aaab-c4d41463f664"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN CÁ NHÂN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="500" width="180" height="20" uuid="d6a94e0d-8ddf-4043-90ec-3f557f3b7c12"/>
+				<textElement>
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Sau đây gọi tắt là Bên B)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="520" width="560" height="100" uuid="7b54fd73-7042-4d70-93b5-a04eb65c4ce9"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Ông/Bà:				      		            Sinh năm: 	
+
+CMND/CCCD/Hộ chiếu số: 			                     cấp ngày: 		       	      tại: 	
+
+Hộ khẩu thường trú tại: 		]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-3" y="630" width="560" height="40" uuid="f154cdce-4e22-4348-b59e-ddf3ce145536"/>
+				<textElement>
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Chúng tôi tự nguyện cùng nhau lập và ký Văn bản này để thực hiện việc thanh lý Hợp đồng                  theo các thoả thuận sau đây:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="680" width="230" height="20" uuid="022d1c99-0cc0-4958-8b55-916693ab7d9e"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 1: NỘI DUNG HỢP ĐỒNG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="700" width="560" height="102" uuid="54cbd014-fca5-46a3-9e0d-180c8e517b7b"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Ngày		, hai bên đã cùng nhau thỏa thuận và thống nhất ký kết Hợp đồng 		
+
+Do 			 nên các bên quyết định lập Văn bản thanh lý Hợp đồng 			nói trên.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="60" y="520" width="260" height="20" uuid="eb55faed-5372-4174-83d0-46fd10b76e7c"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Ten}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="404" y="520" width="153" height="20" uuid="d712f3eb-2d8b-4d63-9b85-a0571af8fa49"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SinhNgay}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="557" width="169" height="20" uuid="89cc783d-086a-4241-9b3f-91e8972df538">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CMND}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="557" width="117" height="20" uuid="35529f74-c1ac-4c47-baf5-c7eaf7e36457"/>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NgayCap}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="576" width="169" height="20" uuid="4a0ad0c2-b895-4021-95be-f15abf3c12f3">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NoiCap}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="650" width="60" height="20" uuid="62d762b2-cb19-47de-adaa-b99e491fd6f1">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{HDMB}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="0" y="0" width="560" height="60" uuid="6c537002-0abb-4e41-9608-726a6d94e328"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[2. Bằng việc lập và ký Văn bản thanh lý Hợp đồng này, chúng tôi chính thức tuyên bố: Hợp đồng	             sẽ chấm dứt hiệu lực ngay sau khi chúng tôi ký vào Văn bản thanh lý Hợp đồng này.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="70" width="280" height="20" uuid="83e5b140-e96c-4d35-b925-67867323d1ca"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐIỀU 2: CAM ĐOAN CỦA CÁC BÊN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="90" width="560" height="210" uuid="dc414773-2bc3-403b-872f-5d0716beadf1"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Việc thanh lý Hợp đồng nói trên là hoàn toàn tự nguyện, dứt khoát, không bị ép buộc và không kèm theo bất cứ điều kiện nào, không nhằm trốn tránh bất kỳ một nghĩa vụ nào.
+
+Các bên không còn bất kỳ quyền và nghĩa vụ nào liên quan đến Hợp đồng và cam kết không khiếu nại gì sau khi ký Biên bản thanh lý Hợp đồng này;
+
+Chúng tôi đã đọc và đồng ý với nội dung Văn bản thanh lý Hợp đồng này, đồng thời ký tên, điểm chỉ vào Văn bản này làm bằng chứng.
+
+Văn bản này được lập thành 2 bản, có giá trị pháp lý như nhau, mỗi bên giữ 1 bản.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="91" y="336" width="48" height="22" uuid="2285de45-5d11-4c85-940c-882beddbea71"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="334" width="58" height="26" uuid="e7381529-c3b5-4328-b5c3-fbaa00d7e2a6"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN B]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="52" y="358" width="126" height="22" uuid="87ea80e3-fe15-4679-9db1-97d918c2d2ae"/>
+				<textElement>
+					<font size="15" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(ký, ghi rõ họ tên)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="359" y="360" width="126" height="22" uuid="a0f0fde1-7eac-46c3-bbd0-297ba4ca469e"/>
+				<textElement>
+					<font size="15" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(ký, ghi rõ họ tên)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="103" y="20" width="60" height="20" uuid="75f78da9-a882-4610-bd08-a5677508f789">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{HDMB}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

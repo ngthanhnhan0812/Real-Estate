@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.2.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PhieuThu" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="9f5c7272-13fc-4a54-adb4-ba21ac13335e">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+	<parameter name="Day" class="java.lang.String"/>
+	<parameter name="Month" class="java.lang.String"/>
+	<parameter name="Year" class="java.lang.String"/>
+	<parameter name="FullName" class="java.lang.String"/>
+	<parameter name="Address" class="java.lang.String"/>
+	<parameter name="Reason" class="java.lang.String"/>
+	<parameter name="Deposits" class="java.lang.String"/>
+	<parameter name="DepositsW" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="130" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="100" height="30" uuid="a3fabac3-fb92-470d-91f4-7edafaf9bc90"/>
+				<textElement>
+					<font fontName="Cambria" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Đơn Vị:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="40" width="100" height="30" uuid="cd1bc8b7-d425-4d4e-bbaf-ed23ecd4a679"/>
+				<textElement>
+					<font fontName="Cambria" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Địa Chỉ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="70" width="137" height="25" uuid="176f4c43-01f1-4564-9338-cfcb06e6301d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PHIẾU THU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="10" width="100" height="17" uuid="79a1a4ed-f015-4823-923a-fc2af33930f4"/>
+				<textElement>
+					<font fontName="Cambria" size="14"/>
+				</textElement>
+				<text><![CDATA[Mẫu số 01 - TT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="27" width="260" height="16" uuid="6f464101-1fea-467b-92cc-29ca25f2b8be"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="12"/>
+				</textElement>
+				<text><![CDATA[(Ban hành theo thông tư số 200/2014/TT - BTC ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="44" width="180" height="30" uuid="270b0c19-a63b-4c10-a167-f1e229f555c2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="11"/>
+				</textElement>
+				<text><![CDATA[Ngày 22/12/2014 của Bộ Tài Chính)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="170" y="97" width="40" height="20" uuid="19bd17b8-33d2-49f3-bace-104071657981">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Ngày:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="240" y="97" width="50" height="20" uuid="765823e9-082a-40a6-9b2b-ae67817ebc3b">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Tháng:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="319" y="97" width="40" height="20" uuid="040d02a0-1965-4e92-91b3-154351d4ec08">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Năm:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="210" y="97" width="30" height="18" uuid="00aaf87d-7f14-4f5e-ae27-0a7d20a840b0">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Cambria" size="15" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Day}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="290" y="97" width="29" height="28" uuid="a336654e-108b-4732-8e37-e1d5ee45c87b">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Cambria" size="15" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Month}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="359" y="97" width="100" height="30" uuid="8fc3c63a-7138-45dc-8975-ee89422e2e00">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Cambria" size="15" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Year}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="142" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="170" height="30" uuid="60b637bf-ca05-4f32-b77d-8dfe13903453"/>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Họ và tên Người nộp tiền:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="70" height="30" uuid="056a9940-91dd-40a0-99df-45a0f1e49df0"/>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Địa Chỉ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="60" width="70" height="20" uuid="1aac02b3-ac9f-495b-977f-258773b11ef7"/>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Lý Do:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="90" width="70" height="20" uuid="60c8bde4-77aa-4cd9-8c56-41369df7a60e"/>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Số Tiền:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="89" width="99" height="20" uuid="67583e21-745e-4a8b-8098-607bc833305f"/>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Viết Bằng Chữ:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="120" width="110" height="20" uuid="828d0e61-2de6-49c2-9d1f-68913e51fed9"/>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Kèm Theo:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="120" width="110" height="20" uuid="ea6aa336-dd90-4b88-bb01-e423545aee3c"/>
+				<textElement textAlignment="Left">
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<text><![CDATA[Chứng từ gốc:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="170" y="0" width="384" height="30" uuid="598e5876-3052-4b1e-9848-15d197aeccc0"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{FullName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="30" width="484" height="30" uuid="42eb1e0e-2415-4791-916b-888b997995ce"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Address}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="68" y="61" width="475" height="19" uuid="434c94f9-50ec-4fea-bee0-22fabae927ab"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Reason}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="90" width="150" height="19" uuid="06c81f71-2413-4169-9331-11f6a5229bde"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Deposits}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="328" y="90" width="214" height="19" uuid="aa05aaa5-d2a6-4bd4-83e2-2e8cc41702ce"/>
+				<textElement>
+					<font fontName="Cambria" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{DepositsW}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="327" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="40" width="90" height="20" uuid="dc049e7c-bac0-453a-ad27-9a9222b78809">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Giám Đốc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="40" width="120" height="20" uuid="80303ac0-be3d-481e-9884-7636e480fa76">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kế Toán Trưởng]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="240" y="40" width="110" height="20" uuid="b77f4c65-5fa6-407f-8be5-c43a7a4cb5a4">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Người Nộp Phiếu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="40" width="120" height="20" uuid="b6589dfa-9bbe-48a5-8071-946b928db2ae">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Người lập Phiếu]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="490" y="40" width="70" height="20" uuid="9c7dc70b-b182-4263-85d9-073aa083bf94">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Thủ Quỹ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-10" y="60" width="110" height="20" uuid="b74ed21d-0d7e-49f8-bff2-1f70e9f0c30e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="12" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký, họ tên, đóng dấu)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="60" width="110" height="20" uuid="601c4803-0252-4f5e-8916-bb0d294e0bed">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="12" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký, họ tên)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="237" y="60" width="110" height="20" uuid="5a1f45e9-1d2a-4f3f-b296-0f0202b24719">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="12" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký, họ tên)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="365" y="60" width="110" height="20" uuid="f4b4b827-f3b2-4807-9071-899e7d1b8c7d">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="12" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký, họ tên)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="495" y="60" width="60" height="20" uuid="3b9bd5df-fe5f-4ace-9721-133e71e34e31">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="12" isBold="false" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký, họ tên)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="347" y="10" width="40" height="20" uuid="44fb466e-af87-4861-b74c-9e573beb5831"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Ngày:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="10" width="50" height="20" uuid="1ca27f28-59ac-4924-ba49-3384ef12b6cb"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Tháng:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="480" y="10" width="40" height="20" uuid="8a7bbc54-eee7-4828-a5b6-fc2701fe8a91"/>
+				<textElement textAlignment="Center">
+					<font fontName="Cambria" size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Năm:]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

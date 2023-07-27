@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MuaBan" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6f591118-57b9-4f81-bafb-fcfdf9f2b1a2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="Dot4" class="java.lang.String"/>
+	<parameter name="Dot3" class="java.lang.String"/>
+	<parameter name="Dot2" class="java.lang.String"/>
+	<parameter name="Dot1" class="java.lang.String"/>
+	<parameter name="DienTich" class="java.lang.String"/>
+	<parameter name="ViTri" class="java.lang.String"/>
+	<parameter name="HoKhau" class="java.lang.String"/>
+	<parameter name="NoiCap" class="java.lang.String"/>
+	<parameter name="NgayCap" class="java.lang.String"/>
+	<parameter name="CMND" class="java.lang.String"/>
+	<parameter name="NgaySinh" class="java.lang.String"/>
+	<parameter name="Ten" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<staticText>
+				<reportElement x="221" y="40" width="112" height="20" uuid="ffa5d9fc-1f93-44b2-8d57-f77e9ab14d67"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[———————]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="163" y="20" width="230" height="20" uuid="56ab50ae-a551-4e48-9425-648c6ffdc6f6"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Độc lập - Tự do - Hạnh phúc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="83" y="0" width="404" height="20" uuid="6a078db8-67dc-4b1d-9dcc-de1bbbdbf71b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="260" y="70" width="290" height="20" uuid="da6af657-c79a-464d-b73a-a749f0d12c6e"/>
+				<textElement textAlignment="Left">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[		, ngày	tháng      năm	]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="115" y="100" width="340" height="30" uuid="dffc2eff-b1f8-4d93-aa19-3c4e7efcd137"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HỢP ĐỒNG MUA BÁN BẤT ĐỘNG SẢN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="140" width="550" height="230" uuid="717a88cc-db0d-4271-9b09-ad669f612e7b"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[– Căn cứ Bộ Luật dân sự năm 2015;
+
+– Căn cứ Luật kinh doanh bất động sản 2014;
+
+– Căn cứ Luật đất đai số 45/2013/QH13 năm 2013;
+
+– Căn cứ Luật Thương mại 2015;
+
+– Căn cứ vào đơn đăng ký quảng cáo BĐS của Ông/Bà:				ngày		tháng		năm	
+
+Hôm nay, ngày	, tại				chúng tôi gồm:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="380" width="180" height="20" uuid="31b99fd6-3790-4be6-91b7-7bb8734a75b5"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN BÁN (BÊN A)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="400" width="550" height="210" uuid="1d3e770f-f5e0-48a1-bfde-fa1a8a019709"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[CÔNG TY BẤT ĐỘNG SẢN DDT
+
+Địa chỉ: 36/5, đường D5, phường 25, quận Bình Thạnh, TP.HCM
+
+VPGD: Công ty bất động sản DDT
+
+Điện thoại: 0925299961  Fax: +84 925299961 Email: bdsddt@gmail.com
+
+Đại diện: Nguyễn Huy Thuận
+
+Chức vụ: Trưởng phòng kinh doanh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="620" width="180" height="20" uuid="383580bb-a36b-46f6-98e3-384913fa3c91"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN MUA (BÊN B)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="640" width="460" height="20" uuid="c4d24f49-90cc-4f14-bce9-f1bda7eda67b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Ten}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="670" width="230" height="20" uuid="47040bf6-2d30-40d2-9728-2d0417c6f456"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NgaySinh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="190" y="700" width="130" height="20" uuid="0d260f7f-1941-413e-88a6-a479cfd86ba6"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CMND}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="700" width="130" height="20" uuid="a3c200d5-9ce2-453d-bc01-b755ad995234"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NgayCap}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="730" width="480" height="20" uuid="f0804f5b-c901-4f54-9917-9e6fb3c68f8b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NoiCap}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="780" width="390" height="20" uuid="1ac9c53f-b03b-42b5-8b12-73469e7848f2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{HoKhau}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="640" width="70" height="20" uuid="e0f6c978-18db-453b-83b3-b13fe61a9345"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Ông (Bà):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="670" width="80" height="20" uuid="e05c301b-9324-4eb9-98d3-3bc32236fa96"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Ngày Sinh:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="700" width="190" height="20" uuid="af098d50-6c5d-4ff8-9549-719ebf1099e2"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Số Chứng Minh Nhân Dân:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="730" width="70" height="20" uuid="81ec9cb8-33ab-4da7-aa65-f8a843ee0e57"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Nơi Cấp:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="760" width="150" height="20" uuid="c684a4a8-7590-44d2-b29e-4d0dab3db0a9"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Hộ Khẩu Thường Trú:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="700" width="80" height="20" uuid="17785464-0764-49a2-bc09-0854fa813f25"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Ngày Cấp:]]></text>
+			</staticText>
+		</band>
+		<band height="802">
+			<staticText>
+				<reportElement x="0" y="10" width="560" height="20" uuid="a7ebebc3-539e-4334-aea7-3791c945758b"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Hai bên đồng ý ký kết hợp đồng mua bán bất động sản với các điều khoản sau:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="280" height="20" uuid="931e990e-6af6-43e0-a773-666f1db94dea"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Điều 1: Nội dung thỏa thuận]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="50" width="560" height="330" uuid="92c551a0-dc69-461f-898e-e32a17ea21b5"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Bên A bằng văn bản này cùng với những cam kết sau đây bán cho bên B Bất động sản có địa chỉ như trên và đồng ý nhượng quyền sử dụng đất có nhà ở nằm trong khuôn viên được xác định bởi các giấy tờ đã nêu trên.
+
+Đặc điểm của Bất động sản:
+
+– Vị trí:
+
+– Diện tích: 
+
+– Đặc điểm đường giao thông: 	
+
+– Hướng nhà:
+
+– Tình trạng pháp lý:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="386" width="280" height="24" uuid="0eadcd93-a378-4d7c-836d-20649e52d25d"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Điều 2: Trách nhiệm của các bên]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="410" width="560" height="190" uuid="1e5458b3-5786-497c-ae8f-8a86e2435a08"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Các thành viên bên B liên đới cùng chịu trách nhiệm về quyền lợi và nghĩa vụ của mình khi được mua. Bên B chấp nhận mọi quy định về địa dịch thông hành đã có và sẽ có, các quy định về lộ giới, quy hoạch xây dựng, chỉnh trạng đô thị, quy hoạch sử dụng đất vì lợi ích quốc gia cùng toàn bộ những rủi ro hoặc thiệt hại sẽ xảy ra, trừ những điều pháp luật cấm mua bán chuyển dịch mà bên A cố tình giấu giếm bên B.
+
+Bên B sẽ đóng đủ mọi thứ thuế theo quy định đối với Bất động sản đã mua bán chuyển nhượng bởi hợp đồng này kể từ ngày thực sự làm chủ sở hữu theo quy định khác nếu có.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="600" width="560" height="40" uuid="5fe8351f-d19d-4b74-a7dd-ebf16e86c3b2"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Điều 3: Phương thức thanh toán, thời gian và địa điểm thanh toán tiền mua bán bất động sản, thời gian giao nhận bất động sản]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="640" width="560" height="162" uuid="6d50c5e9-b26f-4f6a-bcf5-1b4d8e10452a"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Phương thức thanh toán, thời gian và địa điểm giao nhận tiền:
+– Đợt 1:
+
+– Đợt 2:
+
+– Đợt 3:
+
+– Đợt 4:
+
+]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="50" y="164" width="500" height="20" uuid="b228a543-e9ef-4f06-9f3a-cf66d72b4f6a">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ViTri}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="200" width="90" height="20" uuid="f6ebde7f-a2f7-47b4-b721-e62d681c3bbc">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{DienTich}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="658" width="500" height="20" uuid="4615f268-6cff-4e0d-a206-fa2b77085d0f">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Dot1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="696" width="500" height="20" uuid="c8e42393-11b1-45fa-bd88-18e519841608">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Dot2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="735" width="500" height="20" uuid="96d0bd24-1ab3-4f89-8fc9-6251f9499ec3">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Dot3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="772" width="500" height="20" uuid="386c19ab-21ce-402f-a346-dbe2159684e5">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Dot4}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="802">
+			<staticText>
+				<reportElement x="0" y="0" width="560" height="160" uuid="e0f1e60b-5d06-4e54-9139-ead4546e35fe"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Thời gian và điều kiện giao nhận Bất động sản:
+
+– Thời gian giao bất động sản:
+
+– Điều kiện giao bất động sản:
+
+Bên A đảm bảo cho bên B về mặt pháp lý và trên thực tế được hưởng quyền sở hữu thực sự.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="190" width="560" height="210" uuid="02907a32-4383-4fa0-b8b6-c4b26006a3a9"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Bên A giao đất/nhà đúng tình trạng hiện hữu và đúng thời hạn đã quy định trong hợp đồng, đồng thời giao đủ toàn bộ hồ sơ có liên quan đến Bất động sản nói trên cho bên B, cùng với các điều kiện đã nêu ở Điều 3.
+
+Nhận tiền của bên B theo phương thức đã thỏa thuận trong hợp đồng này.
+
+Phải bảo quản Bất động sản đã chuyển nhượng trong thời gian chưa giao giao cho bên B, không được thế chấp, cho thuê hoặc hứa bán cho người khác.
+
+Có nghĩa vụ đóng góp các loại thuế theo quy định để tạo điều kiện thuận lợi cho bên B tiến hành đăng ký trước bạ sang bên cơ quan có thẩm quyền.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="170" width="280" height="20" uuid="b46df677-ba8f-4fc1-a10f-3fac16b9c190"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Điều 4: Quyền và nghĩa vụ của Bên A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="410" width="280" height="20" uuid="b576c20e-82af-4fb8-bdf6-83b234d18a64"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Điều 5: Quyền và nghĩa vụ của Bên B]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="430" width="560" height="120" uuid="4ed696bb-3e3b-437b-bd12-f2dcf54f7a3f"/>
+				<textElement>
+					<font size="15" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Được nhận bất động sản theo tình trạng đã quy định trong hợp đồng và được nhận toàn bộ hồ sơ về Bất động sản.
+
+Trả đủ tiền chuyển nhượng cho bên A theo thỏa thuận đã ghi trong hợp đồng.
+
+Đóng thuế trước bạ đầy đủ và đăng bộ theo quy định.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="560" width="220" height="20" uuid="2d2f1a5f-d46d-4117-b9fb-9fb3bedf1cde"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Điều 6: Cam kết của các bên]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="580" width="560" height="222" uuid="fe528132-a3db-444d-bae8-c172a367f70e"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Cam kết của bên A
+
+– Bên A cam kết về tình trạng sở hữu của bất động sản: Bất động sản nêu trong hợp đồng này là thuộc quyền sở hữu hợp pháp của bên A, không phải do bên A đứng tên thay người khác.
+
+– Bất động sản bên A chuyển nhượng không thuộc diện xử lý theo các chính sách cải tạo của Nhà nước.
+
+– Nhà và đất trong khuôn viên không bị tranh chấp về quyền sở hữu và quyền sử dụng.]]></text>
+			</staticText>
+		</band>
+		<band height="802">
+			<staticText>
+				<reportElement x="0" y="390" width="560" height="200" uuid="cde88e5f-a071-48f2-ade1-0b0dbc91485d"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[– Hai bên cam kết thực hiện đầy đủ các điều khoản đã ghi trong hợp đồng, trường hợp phát sinh tranh chấp, hai bên cùng nhau thương lượng giải quyết, nếu hai bên không tự giải quyết được thì được quyền đưa đến cơ quan Tòa án để yêu cầu giải quyết theo quy định của pháp luật.
+
+– Mọi sửa đổi, bổ sung hợp đồng này chỉ có giá trị khi được lập bằng văn bản và do hai bên ký tên.
+
+– Hợp đồng được lập thành 02 bản, mỗi bên giữ một bản có giá trị pháp lý như nhau.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="370" width="200" height="20" uuid="5fbe50aa-3a92-41ce-8a82-d903c865c6e4"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Điều 7: Điều khoản chung]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="560" height="360" uuid="282bf201-5399-4e59-a6c6-d3242344e10b"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[– Bất động sản không bị xử lý bằng các quyết định của cơ quan Nhà nước có thẩm quyền mà chủ sở hữu chưa chấp hành.
+
+– Bất động sản không bị buộc phải bỏ dở theo quyết định của cơ quan có thẩm quyền.
+
+– Trong trường hợp bên A đem bán bất động sản mà đang bị vướng một trong những điều đã cam kết trên đây do đó đã gây thiệt hại cho bên B, bên A cam kết sẽ hoàn trả đủ ngay lập tức tiền bán cho bên B và sẽ bồi thường cho bên B theo thỏa thuận của hai bên. Trong trường hợp hai bên không thỏa thuận được thì bên B có quyền khởi kiện ra Tòa án và bên A phải bồi thường cho bên B theo phán quyết của Tòa án.
+
+Cam kết của bên B
+
+– Đã xem xét rõ tình trạng hiện hữu của Bất động sản bao gồm cả giấy tờ chủ quyền bất động sản và bằng lòng nhận, đồng thời cam kết không khiếu nại gì.
+
+– Tôn trọng mọi địa dịch thông hành cũ và mới theo quy định của pháp luật(nếu có).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="610" width="50" height="20" uuid="07160d40-6892-4257-8eb3-f12d350a7f32"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="610" width="50" height="20" uuid="df128d02-a188-4dba-8626-e2aeb3c2fc76"/>
+				<textElement>
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BÊN B]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="67" y="630" width="136" height="30" uuid="71c57b2d-8ba8-4f70-8b93-9070a8316863"/>
+				<textElement>
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký và ghi rõ họ tên)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="365" y="630" width="140" height="30" uuid="b5b9a4d0-1564-4b2c-83fd-fd8fbda0133b"/>
+				<textElement>
+					<font size="15" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[(Ký và ghi rõ họ tên)]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

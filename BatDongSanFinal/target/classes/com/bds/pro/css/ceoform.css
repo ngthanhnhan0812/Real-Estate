@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+-fx-font-size: 15;
+-fx-background-color: #e4dfd7;
+}
+.header {
+-fx-font-size: 14;
+-fx-background-color:  #cfccc9;
+-fx-border-color: darkseagreen; 
+-fx-border-width: 0.25; 
+-fx-border-style: none;
+}
+    

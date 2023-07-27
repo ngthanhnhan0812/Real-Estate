@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXComboBox?>
+<?import io.github.palexdev.materialfx.controls.MFXRadioButton?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #e4dfd7;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bds.pro.controller.DuAnController">
+   <children>
+      <GridPane layoutX="168.0" layoutY="107.0" prefHeight="507.0" prefWidth="514.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="0.0" prefWidth="160.39998779296874" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="632.3333435058594" minWidth="10.0" prefWidth="110.80001220703124" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="632.3333435058594" minWidth="0.0" prefWidth="115.19999999999999" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="632.3333435058594" minWidth="10.0" prefWidth="117.59999999999997" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Introduce:" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Investor:" GridPane.rowIndex="10">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Project site:" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <MFXTextField fx:id="tfGT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Location:" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Area:" GridPane.rowIndex="12">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <MFXTextField fx:id="tfDT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <MFXTextField fx:id="tfVT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <MFXTextField fx:id="tfMB" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Project ID:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <MFXTextField fx:id="tfID" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name of project:" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <MFXTextField fx:id="tfTen" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <MFXComboBox fx:id="cbChudautu" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Label fx:id="lbID" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbTen" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbGT" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbMB" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbVT" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbCDT" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbDT" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="13">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Text fill="RED" layoutX="704.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROJECT" textAlignment="CENTER">
+         <font>
+            <Font name="Segoe Print" size="30.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="1216.0" layoutY="614.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/uploads/DDT.png" />
+         </image>
+      </ImageView>
+      <GridPane layoutX="726.0" layoutY="107.0" prefHeight="495.0" prefWidth="555.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="169.6" minWidth="10.0" prefWidth="169.6" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="165.60001220703126" minWidth="10.0" prefWidth="165.60001220703126" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="137.60001220703128" minWidth="10.0" prefWidth="90.79997558593749" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="128.40002441406256" minWidth="10.0" prefWidth="128.40002441406256" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Juridical:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <MFXTextField fx:id="tfPL" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Construction unit:" GridPane.rowIndex="2">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Management unit:" GridPane.rowIndex="4">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Building density:" GridPane.rowIndex="6">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Add-ons:" GridPane.rowIndex="8">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Project status:" GridPane.rowIndex="10">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <MFXTextField fx:id="tfDVQL" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <MFXTextField fx:id="tfMD" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <MFXTextField fx:id="tfTI" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <textFill>
+                  <Color />
+               </textFill>
+            </MFXTextField>
+            <MFXRadioButton fx:id="sap" text="Coming up for sale" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <font>
+                  <Font size="15.0" />
+               </font></MFXRadioButton>
+            <MFXRadioButton fx:id="dang" text="On sale" GridPane.columnIndex="2" GridPane.rowIndex="10">
+               <font>
+                  <Font size="15.0" />
+               </font></MFXRadioButton>
+            <MFXRadioButton fx:id="da" text="Handed over" GridPane.columnIndex="3" GridPane.rowIndex="10">
+               <font>
+                  <Font size="15.0" />
+               </font></MFXRadioButton>
+            <MFXButton fx:id="btnThem" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="127.0" text="ADD" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </MFXButton>
+            <MFXComboBox fx:id="cbDVthicong" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="315.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="lbPL" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbDVTC" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbDVQL" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbMD" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbTI" minHeight="-Infinity" minWidth="-Infinity" textFill="RED" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <HBox prefHeight="40.0" prefWidth="1366.0" style="-fx-background-color: #cfccc9;">
+         <children>
+            <MenuButton fx:id="mbtnHD" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="98.0" style="-fx-background-color: #cfccc9;" text="Contract" textAlignment="CENTER">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#datcoc" text="Deposit contract" />
+                  <MenuItem mnemonicParsing="false" onAction="#muaban" text="Sale contract" />
+                  <MenuItem mnemonicParsing="false" onAction="#chuyennhuong" text="Transfer contract" />
+                  <MenuItem mnemonicParsing="false" onAction="#phuluc" text="Contract Addendum" />
+                  <MenuItem mnemonicParsing="false" onAction="#thanhly" text="Liquidation contract" />
+               </items>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MenuButton>
+            <MenuButton mnemonicParsing="false" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: #cfccc9;" text="More information">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#duan" text="Project" />
+                  <MenuItem mnemonicParsing="false" onAction="#xemduan" text="View Project" />
+                  <MenuItem mnemonicParsing="false" onAction="#chudautu" text="Investor" />
+                  <MenuItem mnemonicParsing="false" onAction="#khuduan" text="Project area" />
+                  <MenuItem mnemonicParsing="false" onAction="#dvthicong" text="Construction unit" />
+                  <MenuItem mnemonicParsing="false" onAction="#sanpham" text="Product" />
+                  <MenuItem mnemonicParsing="false" onAction="#khachhang" text="Client" />
+               </items>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MenuButton>
+            <Button mnemonicParsing="false" onAction="#btnLogout" prefHeight="40.0" prefWidth="91.0" style="-fx-background-color: #cfccc9;" text="Logout" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

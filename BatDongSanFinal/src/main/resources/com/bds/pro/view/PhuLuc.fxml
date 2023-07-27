@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXComboBox?>
+<?import io.github.palexdev.materialfx.controls.MFXDatePicker?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="PhuLuc" prefHeight="768.0" prefWidth="1366.0" style="-fx-background-color: #e4dfd7;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bds.pro.controller.PhuLucController">
+    <children>
+      <HBox prefHeight="40.0" prefWidth="1366.0" style="-fx-background-color: #cfccc9;">
+         <children>
+            <MenuButton fx:id="mbtnHD" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="98.0" style="-fx-background-color: #cfccc9;" text="Contract" textAlignment="CENTER">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#datcoc" text="Deposit contract" />
+                  <MenuItem mnemonicParsing="false" onAction="#muaban" text="Sale contract" />
+                  <MenuItem mnemonicParsing="false" onAction="#chuyennhuong" text="Transfer contract" />
+                  <MenuItem mnemonicParsing="false" onAction="#phuluc" text="Contract Addendum" />
+                  <MenuItem mnemonicParsing="false" onAction="#thanhly" text="Liquidation contract" />
+               </items>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MenuButton>
+            <MenuButton mnemonicParsing="false" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: #cfccc9;" text="More information">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#duan" text="Project" />
+                  <MenuItem mnemonicParsing="false" onAction="#xemduan" text="View Project" />
+                  <MenuItem mnemonicParsing="false" onAction="#chudautu" text="Investor" />
+                  <MenuItem mnemonicParsing="false" onAction="#khuduan" text="Project area" />
+                  <MenuItem mnemonicParsing="false" onAction="#dvthicong" text="Construction unit" />
+                  <MenuItem mnemonicParsing="false" onAction="#sanpham" text="Product" />
+                  <MenuItem mnemonicParsing="false" onAction="#khachhang" text="Client" />
+               </items>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </MenuButton>
+            <Button mnemonicParsing="false" onAction="#btnLogout" prefHeight="40.0" prefWidth="91.0" style="-fx-background-color: #cfccc9;" text="Logout" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Text fill="RED" layoutX="549.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTRACT ADDENDUM" textAlignment="CENTER">
+         <font>
+            <Font name="Segoe Print" size="30.0" />
+         </font>
+      </Text>
+        <ScrollPane hbarPolicy="NEVER" layoutX="226.0" layoutY="100.0" prefHeight="600.0" prefWidth="914.0" style="-fx-background-color: #cfccc9;" vbarPolicy="NEVER">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="680.0" prefWidth="900.0">
+                    <children>
+                        <GridPane layoutX="20.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="353.2000305175781" minWidth="10.0" prefWidth="54.888885498046875" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="0.0" prefWidth="139.11113484700522" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="0.0" prefWidth="90.88886515299481" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="0.0" prefWidth="53.333292643229186" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="0.0" prefWidth="65.111083984375" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="10.0" prefWidth="56.44440714518231" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="378.40002441406256" minWidth="0.0" prefWidth="58.888916015625" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="10.0" prefWidth="71.77775065104163" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="10.0" prefWidth="62.22220865885413" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="10.0" prefWidth="178.4444580078125" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                                <RowConstraints vgrow="SOMETIMES" />
+                                <RowConstraints vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="80.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Điều 1: Sửa đổi vào Khoản">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="điều" textAlignment="CENTER" wrappingWidth="46.943878173828125" GridPane.columnIndex="3">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Từ:" textAlignment="CENTER" wrappingWidth="31.455055236816406" GridPane.rowIndex="1">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <MFXTextField fx:id="PL_Khoan" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="50.0" GridPane.columnIndex="2">
+                                    <textFill>
+                                        <Color />
+                                    </textFill>
+                                </MFXTextField>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="của hợp đồng" textAlignment="CENTER" wrappingWidth="104.47552490234375" GridPane.columnIndex="5">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" ngày" textAlignment="CENTER" wrappingWidth="41.1207275390625" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Điều 2: Các nội dung khác của Hợp đồng" wrappingWidth="277.60546875" GridPane.rowIndex="4">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Thành:" textAlignment="CENTER" wrappingWidth="55.3111572265625" GridPane.rowIndex="3">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="dữ nguyên, không thay đổi " textAlignment="CENTER" wrappingWidth="227.1278533935547" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <MFXTextField fx:id="PL_Dieu" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="50.0" GridPane.columnIndex="4">
+                                    <textFill>
+                                        <Color />
+                                    </textFill>
+                                </MFXTextField>
+                                <MFXTextField fx:id="PL_HD1" allowEdit="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="110.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                    <textFill>
+                                        <Color />
+                                    </textFill>
+                                </MFXTextField>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="như sau:" textAlignment="CENTER" wrappingWidth="70.40477561950684" GridPane.columnIndex="9">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Điều 3: Phụ lục Hợp đồng này có hiệu lực kể từ ngày hai bên ký kết và là một phần không thể tách rời của Hợp đồng" GridPane.rowIndex="5">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <MFXTextField fx:id="PL_HD2" allowEdit="false" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="171.0" GridPane.rowIndex="6">
+                                    <textFill>
+                                        <Color />
+                                    </textFill>
+                                </MFXTextField>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="mà hai bên đã ký kết ngày" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Text>
+                                <MFXDatePicker fx:id="PL_Ngay1" disable="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="136.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                                <MFXDatePicker fx:id="PL_Ngay2" disable="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="170.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                        <TextArea fx:id="PL_Tu" minWidth="800.0" prefHeight="80.0" prefWidth="683.0" style="-fx-background-color: transparent;" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </TextArea>
+                        <TextArea fx:id="PL_Thanh" minWidth="800.0" prefHeight="80.0" prefWidth="683.0" style="-fx-background-color: transparent;" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </TextArea>
+                        <MFXTextField minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <textFill>
+                              <Color />
+                           </textFill>
+                        </MFXTextField>
+                        <MFXComboBox fx:id="PL_ChonHD" GridPane.columnIndex="7" />
+                            </children>
+                        </GridPane>
+                    <GridPane layoutX="20.0" layoutY="411.0" prefWidth="368.0">
+                        <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="375.9999755859375" minWidth="0.0" prefWidth="116.00004069010416" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="632.3333435058594" minWidth="10.0" prefWidth="199.99995930989584" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="632.3333435058594" minWidth="10.0" prefWidth="85.00004577636719" />
+                        </columnConstraints>
+                        <rowConstraints>
+                            <RowConstraints prefHeight="45.0" vgrow="SOMETIMES" />
+                            <RowConstraints prefHeight="45.0" vgrow="SOMETIMES" />
+                            <RowConstraints prefHeight="45.0" vgrow="SOMETIMES" />
+                        <RowConstraints prefHeight="45.0" vgrow="SOMETIMES" />
+                        </rowConstraints>
+                        <children>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mã Hợp Đồng:">
+                                <font>
+                                    <Font size="15.0" />
+                                </font>
+                            </Text>
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ngày Lập:" GridPane.rowIndex="1">
+                                <font>
+                                    <Font size="15.0" />
+                                </font>
+                            </Text>
+                            <MFXTextField fx:id="PL_MaHD" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0" GridPane.columnIndex="1" />
+                            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="File hợp đồng:" GridPane.rowIndex="2">
+                                <font>
+                                    <Font size="15.0" />
+                                </font>
+                            </Text>
+                            <MFXDatePicker fx:id="PL_NgayLap" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <MFXTextField fx:id="PL_FileHD" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <MFXButton onAction="#PL_FileChooser" text="Chọn File" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <MFXTextField fx:id="PL_IDNV" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nhân Viên Tạo:" GridPane.rowIndex="3">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Text>
+                        </children>
+                    </GridPane>
+                      <MFXButton layoutX="644.0" layoutY="550.0" onAction="#ThemPhuLuc" prefHeight="40.0" prefWidth="130.0" text="Thêm Hợp Đồng" />
+                  <MFXButton layoutX="500.0" layoutY="550.0" onAction="#InPhuLuc" prefHeight="40.0" prefWidth="80.0" text="IN">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </MFXButton>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>

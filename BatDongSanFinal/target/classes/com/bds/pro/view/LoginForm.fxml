@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXPasswordField?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e4dfd7;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bds.pro.controller.LoginFormController">
+   <children>
+      <Text fill="#1a00ff" layoutX="-1.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN" textAlignment="CENTER" wrappingWidth="600.0000000000001">
+         <font>
+            <Font name="Kristen ITC" size="40.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="300.0" fitWidth="250.0" layoutX="23.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/uploads/z3818019520184_107df3d835955fbb77308423e44bcc75.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="84.0" layoutX="526.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/uploads/DDT.png" />
+         </image>
+      </ImageView>
+      <Text fill="RED" layoutX="280.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" textAlignment="CENTER">
+         <font>
+            <Font name="LiSu" size="18.0" />
+         </font>
+      </Text>
+      <MFXTextField fx:id="tfUserName" layoutX="365.0" layoutY="123.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0" />
+      <Text fill="RED" layoutX="282.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" textAlignment="CENTER">
+         <font>
+            <Font name="LiSu" size="18.0" />
+         </font>
+      </Text>
+      <MFXPasswordField fx:id="tfPassword" layoutX="365.0" layoutY="171.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="180.0" />
+      <MFXButton layoutX="286.0" layoutY="236.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#btnLogin" prefHeight="35.0" prefWidth="67.0" text="Login" textFill="RED">
+         <font>
+            <Font name="MS Gothic" size="15.0" />
+         </font>
+      </MFXButton>
+      <MFXButton layoutX="365.0" layoutY="236.0" minHeight="-Infinity" minWidth="-Infinity" onAction="#btnReset" prefHeight="35.0" prefWidth="70.0" text="Reset" textFill="RED">
+         <font>
+            <Font name="MS Gothic" size="15.0" />
+         </font>
+      </MFXButton>
+      <Label fx:id="lbUserName" layoutX="368.0" layoutY="153.0" textFill="RED">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbPassword" layoutX="368.0" layoutY="201.0" textFill="RED">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
